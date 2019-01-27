@@ -8,4 +8,4 @@ VISITE O SITE PARA SABER MAIS :  [FLANEO](https://discuss.flaneo.com.br) by Ram0
 USE O TERMINAL EM SEU SERVIDOR (SSH). EXECUTE O COMANDO:
 
 ```
-composer require tiu-ram0n/flaneo-ext-brazilian-portuguese:1.9.0.x-dev
+composer require tiu-ram0n/flaneo-ext-brazilian-portuguese
