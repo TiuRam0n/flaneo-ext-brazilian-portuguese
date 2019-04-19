@@ -3,7 +3,12 @@
     "type": "flarum-extension",
     "description": "Language package for Brazilian Portuguese.",
     "homepage": "https://flaneo.com.br/",	
-    "keywords": ["brazilian","portuguese","language","locale","localization","translation"],
+    "keywords": [
+			"brazilian",
+			"portuguese",
+			"language",
+			"locale"
+	],
     "license": "MIT",
     "authors": [
         {
@@ -21,17 +26,17 @@
         "flarum/core": "^0.1.0-beta.8"
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.9.0-dev"
-        },	    
         "flarum-extension": {
             "title": "Brazilian Portuguese",
             "icon": {
-                "image": "icon.jpg",
-                "backgroundColor": "#414972",
+                "image": "icon.svg",
+                "backgroundColor": "#009c3b",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }
+        },
+        "flagrow": {
+            "discuss": "https://discuss.flarum.org/d/18543"
         },
         "flarum-locale": {
             "code": "pt-BR",
