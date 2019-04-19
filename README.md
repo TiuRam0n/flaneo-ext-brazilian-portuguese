@@ -21,7 +21,6 @@ Pacotes de Extensões Traduzidas:
  - [matteocontrini/flarum-imgur-upload](https://github.com/matteocontrini/flarum-imgur-upload)
  - [ReFlar/polls](https://github.com/ReFlar/polls)
  - [wiwatsrt/flarum-ext-best-answer](https://github.com/wiwatsrt/flarum-ext-best-answer)
- - [flagrow/terms](https://github.com/flagrow/terms)
 
 
 ## Como instalar:
