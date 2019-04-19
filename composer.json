@@ -1,7 +1,7 @@
 {
     "name": "tiu-ram0n/flaneo-ext-brazilian-portuguese",
     "type": "flarum-extension",
-    "description": "Pacote de idiomas para o português brasileiro.",
+    "description": "Language package for Brazilian Portuguese.",
     "homepage": "https://flaneo.com.br/",	
     "keywords": ["brazilian","portuguese","language","locale","localization","translation"],
     "license": "MIT",
@@ -22,7 +22,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1.x-dev"
+            "dev-master": "1.9.0-dev"
         },	    
         "flarum-extension": {
             "title": "Brazilian Portuguese",
