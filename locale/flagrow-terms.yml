@@ -56,7 +56,7 @@ flagrow-terms:
 
         accept-modal:
             title: Termos Atualizados
-            updated-at:Os termos foram atualizados dia {date}
+            updated-at: Os termos foram atualizados dia {date}
             updated-recently: Os termos foram atualizados desde sua última visita
             i-accept: Eu aceito a nova {policy}
             accept: CConfirmar
