@@ -5,7 +5,8 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/tiu-ram0n/flaneo-ext-brazilian-portuguese.svg)](https://packagist.org/packages/lourencosv/flarum-portugues)
 
 Para saber mais, acesse o [Flaneo](https://discuss.flaneo.com.br).
-Encontrou algum problema? Informe-nos: [Reportar Erro](https://github.com/tiuram0n/flaneo-ext-brazilian-portuguese/issues)
+
+[Reportar Erro:](https://github.com/tiuram0n/flaneo-ext-brazilian-portuguese/issues) Encontrou algum problema? Informe-nos!
 
 Pacotes de Extensões Traduzidas:
 
@@ -13,6 +14,7 @@ Pacotes de Extensões Traduzidas:
  - [flagrow/byobu](https://github.com/flagrow/byobu)
  - [flagrow/linguist](https://github.com/flagrow/linguist)
  - [flagrow/upload](https://github.com/flagrow/upload)
+ - [flagrow/terms](https://github.com/flagrow/terms)
  - [flagrow/user-directory](https://github.com/flagrow/user-directory)
  - [fof/formatting](https://github.com/FriendsOfFlarum/formatting)
  - [fof/links](https://github.com/FriendsOfFlarum/links)
@@ -31,7 +33,7 @@ Utilize o comando:
 composer require tiu-ram0n/flaneo-ext-brazilian-portuguese
 ```
 
-Também disponível na loja de extensões do flarum: [Bazaar](https://discuss.flaneo.com.br).
+Também disponível na loja de extensões do flarum: [Bazaar](https://flagrow.io/extensions/tiu-ram0n/flaneo-ext-brazilian-portuguese).
 
 ## Como atualizar:
 
