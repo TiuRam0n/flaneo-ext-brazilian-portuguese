@@ -1,12 +1,12 @@
 ###  Pacote de Tradução do Flarum para Português (Brasileiro)
 
 [![License](https://img.shields.io/github/license/tiuram0n/flaneo-ext-brazilian-portuguese.svg?color=orange)](LICENSE)
-[![Latest Version](https://img.shields.io/github/release/tiuram0n/flaneo-ext-brazilian-portuguese.svg)](https://github.com/lourencosv/flarum-portugues/releases)
-[![Total Downloads](https://img.shields.io/packagist/dt/tiu-ram0n/flaneo-ext-brazilian-portuguese.svg)](https://packagist.org/packages/lourencosv/flarum-portugues)
+[![Latest Version](https://img.shields.io/github/release/tiuram0n/flaneo-ext-brazilian-portuguese.svg)](https://github.com/tiuram0n/flaneo-ext-brazilian-portuguese/releases)
+[![Total Downloads](https://img.shields.io/packagist/dt/tiu-ram0n/flaneo-ext-brazilian-portuguese.svg)](https://packagist.org/packages/tiu-ram0n/flaneo-ext-brazilian-portuguese)
 
 Para saber mais, acesse o [Flaneo](https://discuss.flaneo.com.br).
 
-[Reportar Erro:](https://github.com/tiuram0n/flaneo-ext-brazilian-portuguese/issues) Encontrou algum problema? Informe-nos!
+[Reportar Erro](https://github.com/tiuram0n/flaneo-ext-brazilian-portuguese/issues): Encontrou algum problema? Informe-nos!
 
 Pacotes de Extensões Traduzidas:
 
@@ -19,9 +19,11 @@ Pacotes de Extensões Traduzidas:
  - [fof/formatting](https://github.com/FriendsOfFlarum/formatting)
  - [fof/links](https://github.com/FriendsOfFlarum/links)
  - [fof/socialprofile](https://github.com/FriendsOfFlarum/socialprofile)
+ - [fof/transliterator](https://github.com/FriendsOfFlarum/transliterator)
  - [fof/user-bio](https://github.com/FriendsOfFlarum/user-bio)
  - [matteocontrini/flarum-imgur-upload](https://github.com/matteocontrini/flarum-imgur-upload)
- - [ReFlar/polls](https://github.com/ReFlar/polls)
+ - [reflar/level-ranks](https://github.com/ReFlar/level-ranks)
+ - [reflar/polls](https://github.com/ReFlar/polls)
  - [wiwatsrt/flarum-ext-best-answer](https://github.com/wiwatsrt/flarum-ext-best-answer)
 
 
