@@ -22,13 +22,13 @@ core:
       custom_footer_heading: Rodapé Personalizado
       custom_footer_text: core.ref.custom_footer_text
       custom_header_heading: Cabeçalho Personalizado
-      custom_header_text: "Adicione um HTML para ser exibido no topo da página, acima do cabeçalho do Flarum."
+      custom_header_text: core.ref.custom_header_text
       custom_styles_heading: Estilos Personalizados
       custom_styles_text: Personalize a aparência do seu fórum adicionando o seu próprio código LESS/CSS a ser aplicado em cima dos estilos padrões do Flarum.
       dark_mode_label: Modo Escuro
       edit_css_button: Editar CSS Personalizado
       edit_footer_button: core.ref.custom_footer_title
-      edit_header_button: Editar Cabeçalho Personalizado
+      edit_header_button: => core.ref.custom_header_title
       enter_hex_message: Por favor entre com um código de cor em hexadecimal.
       favicon_heading: Favicon
       favicon_text: Enviar uma imagem para ser exibida como o ícone de favorito do fórum.
@@ -70,7 +70,7 @@ core:
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: Cor
+      color_label: core.ref.color
       delete_button: Deletar Grupo
       delete_confirmation: "Tem certeza que deseja deletar este egrupo? Os membros do grupo NÃO serão deletados."
       icon_label: Ícone
@@ -83,9 +83,9 @@ core:
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: "Adicione um HTML para ser exibido no topo da página, acima do cabeçalho do Flarum."
+      customize_text: => core.ref.custom_header_text
       submit_button: => core.ref.save_changes
-      title: Editar Cabeçalho Personalizado
+      title: => core.ref.custom_header_title
 
     # These translations are used in the email page of the admin interface.
     email:
@@ -282,7 +282,7 @@ core:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: => core.ref.start_a_discussion
+      cannot_start_discussion_button: Não é possível iniciar a discussão
       mark_all_as_read_confirmation: "Tem certeza que deseja marcar todas as discussões como lidas?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Atualizar
@@ -352,7 +352,7 @@ core:
     search:
       all_discussions_button: 'Buscar todas as discussões por "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: Usuários
+      users_heading: => core.ref.users
 
     # These translations are used in the Settings page.
     settings:
@@ -380,7 +380,7 @@ core:
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: Remover
+      avatar_remove_button: => core.ref.remove
       avatar_upload_button: Enviar
       avatar_upload_tooltip: Enviar um novo avatar
       discussions_link: => core.ref.discussions
@@ -388,7 +388,7 @@ core:
       joined_date_text: "Entrou {ago}"
       online_text: Online
       posts_empty_text: Parece que não tem nenhum post aqui.
-      posts_link: Posts
+      posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
 
@@ -446,7 +446,7 @@ core:
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: Página Anterior
+      previous_page_button: => core.ref.previous_page
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
@@ -533,10 +533,10 @@ core:
     color: Cor                                   # Referenced by flarum-tags.yml
     confirm_password: Confirmar Senha
     confirmation_email_sent: "Nós enviamos um e-mail de confirmação para {email}. Se ele não chegar logo, verifique sua caixa de spam."
-    custom_footer_text: TRADUZIR Add HTML to be displayed at the very bottom of the page.
-    custom_footer_title: TRADUZIR Edit Custom Footer
-    custom_header_text: "TRADUZIR Add HTML to be displayed at the very top of the page, above Flarum's own header."
-    custom_header_title: TRADUZIR Edit Custom Header
+    custom_footer_text: Adicionar HTML para ser exibido na parte inferior da página
+    custom_footer_title: Editar Rodapé Personalizado
+    custom_header_text: "Adicionar HTML para ser exibido no topo da página, acima do cabeçalho do Flarum."
+    custom_header_title: Editar cabeçalho personalizado
     delete: Deletar
     delete_forever: Deletar Permanentemente
     discussions: Discussões                      # Referenced by flarum-statistics.yml
