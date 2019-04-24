@@ -10,20 +10,24 @@ Para saber mais, acesse o [Flaneo](https://discuss.flaneo.com.br).
 
 Pacotes de Extensões Traduzidas:
 
+ - [flagrow/ads](https://github.com/flagrow/ads)
  - [flagrow/bazaar](https://github.com/flagrow/bazaar)
  - [flagrow/byobu](https://github.com/flagrow/byobu)
  - [flagrow/linguist](https://github.com/flagrow/linguist)
+ - [flagrow/split](https://github.com/flagrow/split)
  - [flagrow/upload](https://github.com/flagrow/upload)
  - [flagrow/terms](https://github.com/flagrow/terms)
  - [flagrow/user-directory](https://github.com/flagrow/user-directory)
  - [fof/formatting](https://github.com/FriendsOfFlarum/formatting)
  - [fof/links](https://github.com/FriendsOfFlarum/links)
+ - [fof/merge-discussions](https://github.com/FriendsOfFlarum/merge-discussions)
  - [fof/socialprofile](https://github.com/FriendsOfFlarum/socialprofile)
  - [fof/transliterator](https://github.com/FriendsOfFlarum/transliterator)
  - [fof/user-bio](https://github.com/FriendsOfFlarum/user-bio)
  - [matteocontrini/flarum-imgur-upload](https://github.com/matteocontrini/flarum-imgur-upload)
  - [reflar/level-ranks](https://github.com/ReFlar/level-ranks)
  - [reflar/polls](https://github.com/ReFlar/polls)
+ - [reflar/reactions](https://github.com/ReFlar/reactions)
  - [wiwatsrt/flarum-ext-best-answer](https://github.com/wiwatsrt/flarum-ext-best-answer)
 
 
