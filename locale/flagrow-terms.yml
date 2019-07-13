@@ -59,7 +59,7 @@ flagrow-terms:
             updated-at: Os termos foram atualizados dia {date}
             updated-recently: Os termos foram atualizados desde sua última visita
             i-accept: Eu aceito a nova {policy}
-            accept: CConfirmar
+            accept: Confirmar
             close: Agora você pode fechar este modal
 
         state-modal:
