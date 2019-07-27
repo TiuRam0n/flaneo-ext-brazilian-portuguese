@@ -231,7 +231,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "Você tem certeza que deseja deletar esta discussão?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Entre para Responder
+      log_in_to_reply_button: Entre e responda
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
