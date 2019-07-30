@@ -29,7 +29,7 @@ Pacotes de Extensões Traduzidas:
  - [reflar/polls](https://github.com/ReFlar/polls)
  - [reflar/reactions](https://github.com/ReFlar/reactions)
  - [wiwatsrt/flarum-ext-best-answer](https://github.com/wiwatsrt/flarum-ext-best-answer)
-
+ - [fof/masquerade](https://github.com/FriendsOfFlarum/masquerade)
 
 ## Como instalar:
 
