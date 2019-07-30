@@ -4,7 +4,7 @@
 [![Latest Version](https://img.shields.io/github/release/tiuram0n/flaneo-ext-brazilian-portuguese.svg)](https://github.com/tiuram0n/flaneo-ext-brazilian-portuguese/releases)
 [![Total Downloads](https://img.shields.io/packagist/dt/tiu-ram0n/flaneo-ext-brazilian-portuguese.svg)](https://packagist.org/packages/tiu-ram0n/flaneo-ext-brazilian-portuguese)
 
-Para saber mais, acesse o [FlaneoPacote de Idiomas Português Brasileiro](https://discuss.flarum.org/d/18543-language-pack-portuguese-brazilian).
+Para saber mais, acesse o [Pacote de Idiomas Português Brasileiro](https://discuss.flarum.org/d/18543-language-pack-portuguese-brazilian).
 
 [Reportar Erro](https://github.com/tiuram0n/flaneo-ext-brazilian-portuguese/issues): Encontrou algum problema? Informe-nos!
 
