@@ -17,6 +17,8 @@ flarum-tags:
       delete_tag_button: Deletar Tag
       delete_tag_confirmation: "Tem certeza que deseja deletar esta tag? As discussões da tag NÃO serão deletadas."
       description_label: Descrição
+      icon_label: Ícone
+      icon_text: Ícone da Tag personalizado
       hide_label: Esconder de Todas as Discussões
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name

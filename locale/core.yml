@@ -20,14 +20,14 @@ core:
       colors_heading: Cores
       colors_text: "Escolha duas cores com as quais tematizar o seu fórum. A primeira será usada como cor de destaque, enquanto a segunda será usada para estilizar elementos de fundo."
       custom_footer_heading: Rodapé Personalizado
-      custom_footer_text: core.ref.custom_footer_text
+      custom_footer_text: Footer Personalizado
       custom_header_heading: Cabeçalho Personalizado
-      custom_header_text: core.ref.custom_header_text
+      custom_header_text: Cabeçalho Personalizado
       custom_styles_heading: Estilos Personalizados
       custom_styles_text: Personalize a aparência do seu fórum adicionando o seu próprio código LESS/CSS a ser aplicado em cima dos estilos padrões do Flarum.
       dark_mode_label: Modo Escuro
       edit_css_button: Editar CSS Personalizado
-      edit_footer_button: core.ref.custom_footer_title
+      edit_footer_button: Editar footer personalizado
       edit_header_button: => core.ref.custom_header_title
       enter_hex_message: Por favor entre com um código de cor em hexadecimal.
       favicon_heading: Favicon
@@ -226,8 +226,8 @@ core:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Não é Possível Responder
-      cannot_reply_text: Você não tem permissão para responder a esta discussão.
+      cannot_reply_button: Sem permissão.
+      cannot_reply_text: Sem permissão.
       delete_button: => core.ref.delete
       delete_confirmation: "Você tem certeza que deseja deletar esta discussão?"
       delete_forever_button: => core.ref.delete_forever
@@ -275,7 +275,7 @@ core:
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Perfil
-      search_placeholder: Buscar no Fórum
+      search_placeholder: Faça uma Busca
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
@@ -452,7 +452,7 @@ core:
     error:
       403_message: Você não tem permissão para acessar esta página.
       404_message: A página que vocẽ solicitou não pôde ser encontrada.
-      404_return_link: "Voltar a {forum}"
+      404_return_link: "Voltar ao {forum}"
       500_message: Um erro ocorreu ao tentar carregar esta página.
       503_message: "{forum} está em manutenção. Obrigado por sua paciência!"
 
