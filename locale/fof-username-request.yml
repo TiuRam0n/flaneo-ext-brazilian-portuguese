@@ -12,13 +12,13 @@ fof-username-request:
       denial_label: Negar
       submit_button: Enviar
       reason_title: Razão
-      success: Decisão enviada.
+      success: Enviado.
       name: '{username} solicitou que seu nome de usuário seja alterado para "{newUsername}"'
     results:
-      title: Mudar Nome
-      approved: 'Sua solicitação de mudança de nome de usuário foi aprovada!'
+      title: Alterar Nome
+      approved: 'Sua solicitação de mudança de nome foi aprovada!'
       new_username: 'Seu nome de usuário agora é "{username}"'
-      denied: Seu pedido para alteração de nome de usuário foi negado.
+      denied: Seu pedido para alteração de nome foi negado.
       reason: 'Razão: <i>"{reason}"</i>'
       resubmit: Você pode reenviar uma nova solicitação de nome de usuário das configurações da sua conta.
     request:
@@ -28,9 +28,9 @@ fof-username-request:
       delete_button: Excluir Solicitação
       confirmation_message: Sua solicitação foi recebida e será revisada em breve.
       dismiss_button: Entendido
-      deleted: Pedido para alterar nome de usuário excluído.
-    account_label: Mudar nome de usuário
-    profile_link: Histórico do nome de usuário
+      deleted: Pedido para alterar nome excluído.
+    account_label: Alterar Nome
+    profile_link: Histórico do Nome
     dropdown:
       title: Solicitações de mudança de nome
       item_text: "{username} solicitou uma mudança de nome"
