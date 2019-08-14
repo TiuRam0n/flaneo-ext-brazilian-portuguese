@@ -6,6 +6,7 @@ fof-username-request:
   forum:
     action:
       title: Solicitações de mudança de nome
+      fof-username-request.forum.dropdown.tooltip: Solicitações de mudança de nome
       help_text: Certifique-se de que o nome de usuário siga as regras.
       decision_title: Decisão
       approval_label: Aprovar
