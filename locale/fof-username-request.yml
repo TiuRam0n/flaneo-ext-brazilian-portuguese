@@ -5,7 +5,7 @@ fof-username-request:
       moderate: Aprovar solicitações de mudança de nome de usuário
   forum:
     action:
-      title: => fof-username-request.forum.results.title
+      title: => Solicitações de mudança de nome
       help_text: Certifique-se de que o nome de usuário siga as regras.
       decision_title: Decisão
       approval_label: Aprovar
