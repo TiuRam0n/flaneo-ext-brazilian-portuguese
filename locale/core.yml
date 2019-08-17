@@ -561,7 +561,7 @@ core:
     settings: Configurações
     sign_up: Cadastre-se
     some_others: "{count} outro|{count} outros"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Iniciar uma Discussão
+    start_a_discussion: Iniciar Discussão
     username: Nome de usuário
     users: Usuários                              # Referenced by flarum-statistics.yml
     write_a_reply: Escrever uma Resposta...
