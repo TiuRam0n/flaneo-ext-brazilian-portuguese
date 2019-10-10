@@ -9,7 +9,7 @@ flarum-tags:
 
     # These translations are used in the Basics page.
     basics:
-      tags_label: => flarum-tags.ref.tags
+      tags_label: flarum-tags.ref.tags
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
@@ -17,18 +17,16 @@ flarum-tags:
       delete_tag_button: Deletar Tag
       delete_tag_confirmation: "Tem certeza que deseja deletar esta tag? As discussões da tag NÃO serão deletadas."
       description_label: Descrição
-      icon_label: Ícone
-      icon_text: Ícone da Tag personalizado
       hide_label: Esconder de Todas as Discussões
-      name_label: => flarum-tags.ref.name
-      name_placeholder: => flarum-tags.ref.name
+      name_label: flarum-tags.ref.name
+      name_placeholder: flarum-tags.ref.name
       slug_label: Slug
-      submit_button: => core.ref.save_changes
-      title: => flarum-tags.ref.create_tag
+      submit_button: core.ref.save_changes
+      title: flarum-tags.ref.create_tag
 
     # These translations are used in the navigation bar.
     nav:
-      tags_button: => flarum-tags.ref.tags
+      tags_button: flarum-tags.ref.tags
       tags_text: Administre a lista de tags disponíveis para organizar discussões.
 
     # These translations are used in the Permissions page of the admin interface.
@@ -49,7 +47,7 @@ flarum-tags:
     # These translations are used in the Tags page.
     tags:
       about_tags_text: "Tags são utilizadas para categorizar discussões. Tags primárias são como categorias tradicionais de fórum: elas podem ser organizadas numa hierarquia de dois níveis. Tags secundárias não possuem hierarquia ou ordem, e são úteis para micro-categorização."
-      create_tag_button: => flarum-tags.ref.create_tag
+      create_tag_button: flarum-tags.ref.create_tag
       primary_heading: Tags Primárias
       secondary_heading: Tags Secundárias
       settings_button: Configurações
@@ -62,7 +60,7 @@ flarum-tags:
       choose_primary_placeholder: "Escolha uma tag primária|Escolha {count} tags primárias"
       choose_secondary_placeholder: "Escolha mais 1 tag|Escolha mais {count} tags"
       edit_title: "Edite as Tags de {title}"
-      submit_button: => core.ref.okay
+      submit_button: core.ref.okay
       title: Escolha Tags para Sua Discussão
 
     # These translations are used by the composer when starting a discussion.
@@ -79,7 +77,7 @@ flarum-tags:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: Mais...
-      tags_link: => flarum-tags.ref.tags
+      tags_link: flarum-tags.ref.tags
       untagged_link: Sem tags
 
     # These translations are displayed between posts in the post stream.

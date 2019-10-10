@@ -16,7 +16,7 @@ flarum-sticky:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      sticky_tooltip: => flarum-sticky.ref.sticky
+      sticky_tooltip: flarum-sticky.ref.sticky
 
     # These translations are used by the discussion control buttons.
     discussion_controls:

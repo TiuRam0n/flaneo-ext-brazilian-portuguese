@@ -32,7 +32,7 @@ reflar-polls:
       delete_confirm: Tem certeza de que deseja excluir esta enquete?
     composer_discussion:
       add_poll: Adicionar Enquete
-      edit: => reflar-polls.forum.moderation.edit
+      edit: reflar-polls.forum.moderation.edit
     tooltip:
       votes: votos
       vote: voto
