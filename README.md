@@ -36,7 +36,7 @@ Pacotes de Extensões Traduzidas:
 Utilize o comando:
 
 ```bash
-composer require tiuram0n/brazilian-portuguese
+composer require tiu-ram0n/brazilian-portuguese
 ```
 
 Também disponível na loja de extensões do flarum: [Bazaar](https://flagrow.io/extensions/tiu-ram0n/brazilian-portuguese).
@@ -46,7 +46,7 @@ Também disponível na loja de extensões do flarum: [Bazaar](https://flagrow.io
 Utilize o comando:
 
 ```bash
-composer update tiuram0n/brazilian-portuguese
+composer update tiu-ram0n/brazilian-portuguese
 php flarum cache:clear
 ```
 
