@@ -21,4 +21,4 @@ kilowhat-mailing:
         default_subject: => kilowhat-mailing.ref.default_subject
 
     ref:
-        default_subject: Mensagem de coode.in
+        default_subject: Mensagem
