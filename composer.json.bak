@@ -23,7 +23,7 @@
 	    "source": "https://github.com/tiu-ram0n/brazilian-portuguese"
     },	
     "require": {
-        "flarum/core": "^0.1.0-beta.10"
+        "flarum/core": "^0.1.0-beta.8"
     },
     "extra": {
         "flarum-extension": {

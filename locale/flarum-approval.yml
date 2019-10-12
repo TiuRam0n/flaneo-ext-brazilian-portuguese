@@ -18,11 +18,11 @@ flarum-approval:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      awaiting_approval_tooltip: flarum-approval.ref.awaiting_approval
+      awaiting_approval_tooltip: => flarum-approval.ref.awaiting_approval
 
     # These translations are displayed in the post header.
     post:
-      awaiting_approval_text: flarum-approval.ref.awaiting_approval
+      awaiting_approval_text: => flarum-approval.ref.awaiting_approval
 
     # These translations are used by the post control buttons.
     post_controls:

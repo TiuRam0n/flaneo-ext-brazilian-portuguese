@@ -23,7 +23,7 @@ flarum-flags:
     # These translations are used by the Flag Post modal dialog.
     flag_post:
       confirmation_message: Obrigado por sinalizar este post. Nossos moderadores olharão ele.
-      dismiss_button: core.ref.okay
+      dismiss_button: => core.ref.okay
       reason_inappropriate_label: Inapropriado
       reason_inappropriate_text: "Este post é ofensivo, abusivo, ou viola nossas <a>regras da comunidade</a>."
       reason_off_topic_label: "Off-topic"
@@ -31,15 +31,15 @@ flarum-flags:
       reason_other_label: Outro
       reason_spam_label: Spam
       reason_spam_text: Este post é uma propaganda.
-      submit_button: flarum-flags.ref.flag_post
-      title: flarum-flags.ref.flag_post
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
 
     # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
     flagged_posts:
       empty_text: Sem Sinalizações
       item_text: "{username} em <em>{discussion}</em>"
-      title: flarum-flags.ref.flagged_posts
-      tooltip: flarum-flags.ref.flagged_posts
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
 
     # These translations are used by the frame displayed around flagged posts.
     post:

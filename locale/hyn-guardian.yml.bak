@@ -5,8 +5,8 @@ hyn-guardian:
     never: nunca
   admin:
     nav:
-      guardian_button: Guardian
-      guardian_text: Monitore usuários e suas relações.
+      guardian_button: => hyn-guardian.package_name
+      guardian_text: => hyn-guardian.package_description
     grid:
       user:
         joined_at: Registrou
@@ -15,3 +15,4 @@ hyn-guardian:
         activated: Ativo
         details: Detalhes
         states:
+          never_visited: => hyn-guardian.generic.never
