@@ -13,7 +13,7 @@ flagrow-linguist:
         placeholder:
             not-translated: Não traduzido
             all-locales: O texto definido aqui será mostrado em todos os idiomas
-            hint: Original:
+            hint: Valor Original
         filters:
             search: Pesquisar sequências de tradução ...
             with-own-translations: Minhas traduções
