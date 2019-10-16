@@ -1,7 +1,7 @@
 flagrow-linguist:
     admin:
         menu:
-            title: Linguista
+            title: Linguist
             description: Personalize as traduções.
         buttons:
             apply: Aplicar
