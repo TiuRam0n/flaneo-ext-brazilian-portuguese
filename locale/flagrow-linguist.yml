@@ -21,3 +21,8 @@ flagrow-linguist:
             without-original-translations-in-locales: Sem traduções originais em
             for-extension: Para a extensão
             results: Mostrando {shown} de {total} traduções correspondentes
+        clear-cache:
+            text: >
+                Novas traduções ainda não foram aplicadas.
+                Nota: limpar o cache pode deixar seu fórum temporariamente mais lento.
+            button: Limpar Cache
