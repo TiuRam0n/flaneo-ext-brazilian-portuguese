@@ -1,7 +1,7 @@
 flagrow-linguist:
     admin:
         menu:
-            title: Linguist
+            title: Linguista
             description: Personalize as traduções.
         buttons:
             apply: Aplicar
@@ -13,7 +13,7 @@ flagrow-linguist:
         placeholder:
             not-translated: Não traduzido
             all-locales: O texto definido aqui será mostrado em todos os idiomas
-            hint: Valor Original
+            hint: Original:
         filters:
             search: Pesquisar sequências de tradução ...
             with-own-translations: Minhas traduções
@@ -21,8 +21,3 @@ flagrow-linguist:
             without-original-translations-in-locales: Sem traduções originais em
             for-extension: Para a extensão
             results: Mostrando {shown} de {total} traduções correspondentes
-        clear-cache:
-            text: >
-                Novas traduções ainda não foram aplicadas.
-                Nota: limpar o cache pode deixar seu fórum temporariamente mais lento.
-            button: Limpar Cache
