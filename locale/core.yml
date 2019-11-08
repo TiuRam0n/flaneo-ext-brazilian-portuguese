@@ -71,7 +71,7 @@ core:
       plural_placeholder: Plural (por exemplo, Mods)
       singular_placeholder: Singular (por exemplo, Mod)
       submit_button: "=> core.ref.save_changes"
-      title: CRIAR GRUPO
+      title: Criar Grupo
     edit_header:
       customize_text: "=> core.ref.custom_header_text"
       submit_button: "=> core.ref.save_changes"
@@ -79,19 +79,19 @@ core:
     email:
       addresses_heading: Endereços
       driver_heading: Escolha um driver
-      driver_label: Motorista
+      driver_label: Criptografia
       from_label: Remetente
       heading: "=> core.ref.email"
       mail_encryption_label: Criptografia
-      mail_host_label: Hospedeiro
-      mail_mailgun_domain_label: domínio
+      mail_host_label: Host
+      mail_mailgun_domain_label: Dominio
       mail_mailgun_secret_label: Secret key
       mail_mandrill_secret_label: Chave secreta
       mail_password_label: "=> core.ref.password"
       mail_port_label: Porta
       mail_ses_key_label: Chave
       mail_ses_region_label: Região
-      mail_ses_secret_label: Segredo
+      mail_ses_secret_label: Secret
       mail_username_label: "=> core.ref.username"
       mailgun_heading: Configurações de Mailgun
       mandrill_heading: Configurações do Mandrill
@@ -99,7 +99,7 @@ core:
       smtp_heading: Configurações SMTP
       submit_button: "=> core.ref.save_changes"
       text: Configure o driver, as configurações e os endereços que seu fórum usará
-        para enviar email.
+        para enviar e-mail's.
     extensions:
       add_button: Adicionar extensão
       settings_button: "=> core.ref.settings"
@@ -124,7 +124,7 @@ core:
     permissions:
       allow_post_editing_label: Permitir edição pós
       allow_renaming_label: Permitir renomeação
-      create_heading: Crio
+      create_heading: Criar
       delete_discussions_forever_label: Excluir discussões para sempre
       delete_discussions_label: Excluir discussões
       delete_posts_forever_label: Excluir postagens para sempre
@@ -132,7 +132,7 @@ core:
       edit_posts_label: Editar postagens
       edit_users_label: Editar usuários
       global_heading: Global
-      moderate_heading: Moderado
+      moderate_heading: Moderar
       new_group_button: Novo grupo
       participate_heading: Participar
       read_heading: Ler
@@ -142,7 +142,7 @@ core:
       start_discussions_label: Iniciar discussões
       view_discussions_label: Ver discussões
       view_last_seen_at_label: Ver a última vez que o usuário visualizou
-      view_post_ips_label: Exibir endereços IP de postagem
+      view_post_ips_label: Exibir endereços IP da postagem
       view_user_list_label: Ver lista de usuários
     permissions_controls:
       allow_indefinitely_button: Indefinidamente
@@ -163,13 +163,28 @@ core:
       e traços.
   email:
     activate_account:
-      body: ''
+      body: |
+        Olá {username}!
+        Alguém (esperamos que você!) se cadastrou em {forum} com este endereço de e-mail.
+        Se foi você mesmo, basta clicar no link abaixo e sua conta será ativada:
+        {url}
+        Se você não se cadastrou, por favor ignore este e-mail.
       subject: Ative sua nova conta
     confirm_email:
-      body: ''
+      body: |
+        Olá {username}!
+        Alguém (esperamos que você!) alterou o endereço de e-mail em {forum} para este aqui.
+        Se foi você mesmo, basta clicar no link abaixo e seu e-mail será confirmado:
+        {url}
+        Se você não solicitou isso, por favor ignore este e-mail.
       subject: Confirme seu novo endereço de email
     reset_password:
-      body: ''
+      body: |
+        Olá {username}!
+        Alguém (esperamos que você!) enviou uma solicitação de redefinição de senha para sua conta em {forum}.
+        Se foi você mesmo, clique no link abaixo para redefinir sua senha:
+        {url}
+        Se você não quiser alterar sua senha, basta ignorar este e-mail e nada irá acontecer.
       subject: "=> core.ref.reset_your_password"
   forum:
     change_email:
@@ -184,34 +199,34 @@ core:
       text: Clique no botão abaixo e verifique se há um link para alterar sua senha.
       title: "=> core.ref.change_password"
     composer:
-      close_tooltip: Perto
+      close_tooltip: Fechar
       exit_full_screen_tooltip: Sair da tela cheia
       full_screen_tooltip: Tela cheia
       minimize_tooltip: Minimizar
       preview_tooltip: Visualizar
     composer_discussion:
       body_placeholder: Escrever um post ...
-      discard_confirmation: Você não postou sua discussão. Deseja descartá-lo?
+      discard_confirmation: Você não postou sua discussão. Deseja descartá-la?
       submit_button: Iniciar discussão
       title: "=> core.ref.start_a_discussion"
       title_placeholder: Título da discussão
     composer_edit:
-      discard_confirmation: Você não salvou suas alterações. Deseja descartá-los?
+      discard_confirmation: Você não salvou suas alterações. Deseja descartá-las?
       post_link: Postagem nº{number} em {discussion}
       submit_button: "=> core.ref.save_changes"
     composer_reply:
       body_placeholder: "=> core.ref.write_a_reply"
-      discard_confirmation: Você não postou sua resposta. Deseja descartá-lo?
+      discard_confirmation: Você não postou sua resposta. Deseja descartá-la?
       posted_message: Sua resposta foi postada.
-      submit_button: Resposta ao post
-      view_button: Visão
+      submit_button: Responder ao post
+      view_button: Ver
     discussion_controls:
-      cannot_reply_button: Não posso responder
+      cannot_reply_button: Sem permissão.
       cannot_reply_text: Você não tem permissão para responder a esta discussão.
       delete_button: "=> core.ref.delete"
       delete_confirmation: Tem certeza de que deseja excluir esta discussão?
       delete_forever_button: "=> core.ref.delete_forever"
-      log_in_to_reply_button: Entre para responder
+      log_in_to_reply_button: Entre e responda
       rename_button: "=> core.ref.rename"
       reply_button: "=> core.ref.reply"
       restore_button: "=> core.ref.restore"
@@ -225,7 +240,7 @@ core:
       activate_button: Ativar Usuário
       email_heading: "=> core.ref.email"
       email_label: "=> core.ref.email"
-      groups_heading: grupos
+      groups_heading: Grupos
       password_heading: "=> core.ref.password"
       password_label: "=> core.ref.password"
       set_password_label: Definir nova senha
@@ -258,7 +273,7 @@ core:
       mark_all_as_read_confirmation: Tem certeza de que deseja marcar todas as discussões
         como lidas?
       mark_all_as_read_tooltip: "=> core.ref.mark_all_as_read"
-      refresh_tooltip: REFRESH
+      refresh_tooltip: Atualizar
       start_discussion_button: "=> core.ref.start_a_discussion"
     index_sort:
       latest_button: Mais recentes
@@ -270,7 +285,7 @@ core:
       forgot_password_link: Esqueceu a senha?
       invalid_login_message: Seus detalhes de login estavam incorretos.
       password_placeholder: "=> core.ref.password"
-      remember_me_label: Lembre de mim
+      remember_me_label: Lembrar de mim
       sign_up_text: Não possui uma conta? <a>Inscreva-se</a>
       submit_button: "=> core.ref.log_in"
       title: "=> core.ref.log_in"
@@ -336,7 +351,7 @@ core:
       avatar_upload_tooltip: Carregar um novo avatar
       discussions_link: "=> core.ref.discussions"
       in_discussion_text: Em {discussion}
-      joined_date_text: Ingressou em {ago}
+      joined_date_text: Entrou em {ago}
       online_text: Online
       posts_empty_text: Parece que não há posts aqui.
       posts_link: "=> core.ref.posts"
@@ -353,22 +368,22 @@ core:
     user_email_confirmation:
       alert_message: "=> core.ref.confirmation_email_sent"
       resend_button: Reenviar e-mail de confirmação
-      sent_message: enviei
+      sent_message: Enviar
   group:
-    admin: Admin
-    admins: Admins
+    admin: Administrador
+    admins: Administradores
     guest: Convidado
     guests: Convidados
     member: Membro
     members: Membros
-    mod: Mod
-    mods: Modd
+    mod: Moderador
+    mods: Moderadores
   lib:
     badge:
       hidden_tooltip: Escondido
     error:
       generic_message: Opa! Algo deu errado. Por favor, recarregue a página e tente
-        denovo.
+        novamente.
       not_found_message: O recurso solicitado não foi encontrado.
       permission_denied_message: Você não tem permissão para fazer isso.
       rate_limit_exceeded_message: Você está indo um pouco rápido demais. Tente novamente
