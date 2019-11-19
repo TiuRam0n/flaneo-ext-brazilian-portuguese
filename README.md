@@ -10,19 +10,9 @@ Para saber mais, acesse o [Pacote de Idiomas Português Brasileiro](https://disc
 
 Pacotes de Extensões Traduzidas:
 
-- [flarum/core](https://github.com/flarum/core/) - Núcleo Flarum
-- [flagrow/ads](https://github.com/flagrow/ads)
-- [flagrow/bazaar](https://github.com/flagrow/bazaar)
-- [flagrow/byobu](https://github.com/flagrow/byobu)
-- [flagrow/upload](https://github.com/flagrow/upload)
-- [flagrow/linguist](https://github.com/flagrow/linguist)
-- [flagrow/split](https://github.com/flagrow/split)
-- [flagrow/terms](https://github.com/flagrow/terms)
-- [flagrow/user-directory](https://github.com/flagrow/user-directory)
-- [flarum/akismet](https://github.com/flarum/akismet)
-- [flarum/approval](https://github.com/flarum/approval)
-- flarum-auth's [Facebook](https://github.com/flarum/auth-facebook), [Twitter](https://github.com/flarum/auth-twitter) e [GitHub](https://github.com/flarum/auth-github)
+- [flarum/core](https://github.com/flarum/core/) - core
 
+|| AINDA A SER ADICIONADO. ||
 
 ## Como instalar:
 
