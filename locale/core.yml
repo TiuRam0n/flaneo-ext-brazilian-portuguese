@@ -347,7 +347,7 @@ core:
       welcome_text: Bem-vindo, {username}!
     user:
       avatar_remove_button: "=> core.ref.remove"
-      avatar_upload_button: Envio
+      avatar_upload_button: Enviar
       avatar_upload_tooltip: Carregar um novo avatar
       discussions_link: "=> core.ref.discussions"
       in_discussion_text: Em {discussion}
