@@ -410,8 +410,8 @@ core:
     custom_header_text: Adicione HTML a ser exibido na parte superior da página, acima
       do cabeçalho do próprio Flarum.
     custom_header_title: Editar cabeçalho personalizado
-    delete: Apagar
-    delete_forever: Apagar permanentemente
+    delete: Deletar
+    delete_forever: Deletar permanentemente
     discussions: Discussões
     edit: Editar
     email: E-mail
