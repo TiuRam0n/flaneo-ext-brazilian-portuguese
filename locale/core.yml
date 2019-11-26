@@ -1,7 +1,7 @@
 core:
   admin:
     add_extension:
-      developer_text: Se você é desenvolvedor, pode <a>ler os documentos</a> e tentar
+      developer_text: Se você é um desenvolvedor,você pode <a>ler os documentos</a> e tentar
         criar suas próprias extensões.
       install_text: Enquanto isso, você pode procurar extensões no <a>site da Comunidade
         Flarum</a> e instalá-las manualmente usando o Composer.
@@ -116,7 +116,7 @@ core:
       dashboard_button: Painel de controle
       dashboard_text: Seu forum num relance.
       email_button: "=> core.ref.email"
-      email_text: Defina as configurações de email do seu fórum.
+      email_text: Defina as configurações de e-mail do seu fórum.
       extensions_button: Extensões
       extensions_text: Adicione funcionalidade extra ao seu fórum e faça você mesmo.
       permissions_button: Permissões
@@ -177,7 +177,7 @@ core:
         Se foi você mesmo, basta clicar no link abaixo e seu e-mail será confirmado:
         {url}
         Se você não solicitou isso, por favor ignore este e-mail.
-      subject: Confirme seu novo endereço de email
+      subject: Confirme seu novo endereço de e-mail
     reset_password:
       body: |
         Olá {username}!
@@ -195,8 +195,8 @@ core:
       submit_button: "=> core.ref.save_changes"
       title: "=> core.ref.change_email"
     change_password:
-      send_button: Enviar Senha Redefinir Email
-      text: Clique no botão abaixo e verifique se há um link para alterar sua senha.
+      send_button: Enviar
+      text: Clique no botão abaixo e verifique se há um link para alterar sua senha em seu e-mail.
       title: "=> core.ref.change_password"
     composer:
       close_tooltip: Fechar
@@ -253,7 +253,7 @@ core:
       email_placeholder: "=> core.ref.email"
       email_sent_message: Enviámos um e-mail com um link para redefinir sua senha.
         Verifique sua pasta de spam se não a receber dentro de um ou dois minutos.
-      not_found_message: Não há usuário registrado com esse endereço de email.
+      not_found_message: Não há usuário registrado com esse endereço de e-mail.
       submit_button: Recuperar Senha
       text: Digite seu endereço de e-mail e enviaremos um link para redefinir sua
         senha.
@@ -289,7 +289,7 @@ core:
       sign_up_text: Não possui uma conta? <a>Inscreva-se</a>
       submit_button: "=> core.ref.log_in"
       title: "=> core.ref.log_in"
-      username_or_email_placeholder: Nome de usuário ou email
+      username_or_email_placeholder: Nome de usuário ou e-mail
     notifications:
       discussion_renamed_text: "{username} alterou o título"
       empty_text: Nenhuma notificação
@@ -398,12 +398,12 @@ core:
     username:
       deleted_text: "[excluído]"
   ref:
-    all_discussions: Todas as discussões
+    all_discussions: Todas as Discussões
     change_email: Mudar E-mail
     change_password: Mudar Senha
     color: Cor
     confirm_password: Confirme a Senha
-    confirmation_email_sent: Enviámos um email de confirmação para {email}. Se não
+    confirmation_email_sent: Enviámos um e-mail de confirmação para {email}. Se não
       chegar logo, verifique sua pasta de spam.
     custom_footer_text: Adicione HTML a ser exibido na parte inferior da página.
     custom_footer_title: Editar rodapé personalizado
@@ -411,7 +411,7 @@ core:
       do cabeçalho do próprio Flarum.
     custom_header_title: Editar cabeçalho personalizado
     delete: Excluir
-    delete_forever: Apagar para sempre
+    delete_forever: Apagar permanentemente
     discussions: Discussões
     edit: Editar
     email: E-mail
@@ -421,7 +421,7 @@ core:
     load_more: Carregue mais
     log_in: Entrar
     log_out: Sair
-    mark_all_as_read: marcar tudo como lido
+    mark_all_as_read: Marcar tudo como lido
     next_page: Próxima página
     notifications: Notificações
     okay: OK
