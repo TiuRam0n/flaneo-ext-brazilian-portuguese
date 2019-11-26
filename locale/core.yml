@@ -114,7 +114,7 @@ core:
       basics_button: Basico
       basics_text: Defina o título do fórum, idioma e outras configurações básicas.
       dashboard_button: Painel de controle
-      dashboard_text: Estatísticas.
+      dashboard_text: Seu forum num relance.
       email_button: "=> core.ref.email"
       email_text: Defina as configurações de email do seu fórum.
       extensions_button: Extensões
@@ -207,7 +207,7 @@ core:
     composer_discussion:
       body_placeholder: Escrever um post ...
       discard_confirmation: Você não postou sua discussão. Deseja descartá-la?
-      submit_button: Iniciar discussão
+      submit_button: Iniciar Discussão
       title: "=> core.ref.start_a_discussion"
       title_placeholder: Título da discussão
     composer_edit:
@@ -277,7 +277,7 @@ core:
       start_discussion_button: "=> core.ref.start_a_discussion"
     index_sort:
       latest_button: Mais recentes
-      newest_button: O mais novo
+      newest_button: Mais novas
       oldest_button: Mais antigas
       relevance_button: Relevância
       top_button: Topo
@@ -399,8 +399,8 @@ core:
       deleted_text: "[excluído]"
   ref:
     all_discussions: Todas as discussões
-    change_email: Mudar e-mail
-    change_password: Mudar senha
+    change_email: Mudar E-mail
+    change_password: Mudar Senha
     color: Cor
     confirm_password: Confirme a Senha
     confirmation_email_sent: Enviámos um email de confirmação para {email}. Se não
@@ -426,18 +426,18 @@ core:
     notifications: Notificações
     okay: OK
     password: Senha
-    posts: Postagens
+    posts: Posts
     previous_page: Página anterior
     remove: Remover
     rename: Renomear
     reply: Responder
     reset_your_password: Redefinir sua senha
     restore: Restaurar
-    save_changes: Salvar alterações
+    save_changes: Salvar Alterações
     settings: Configurações
     sign_up: Inscrever-se
     some_others: "{count} outro |{count} outros"
-    start_a_discussion: Iniciar discussão
+    start_a_discussion: Iniciar Discussão
     username: Nome de usuário
     users: Usuários
     write_a_reply: Escreva uma resposta...
