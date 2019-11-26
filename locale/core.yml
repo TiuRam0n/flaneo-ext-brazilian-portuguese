@@ -283,7 +283,7 @@ core:
       top_button: Topo
     log_in:
       forgot_password_link: Esqueceu a senha?
-      invalid_login_message: Seus detalhes de login estavam incorretos.
+      invalid_login_message: Seus detalhes de login estão incorretos.
       password_placeholder: "=> core.ref.password"
       remember_me_label: Lembrar de mim
       sign_up_text: Não possui uma conta? <a>Inscreva-se</a>
