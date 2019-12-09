@@ -7,7 +7,7 @@ fof-stopforumspam:
       ip_label: Verificar spam por endereço de IP
       email_label: Verificar spam por E-mail
 
-      frequency_label: Liite
+      frequency_label: Limite
       frequency_text: O número de relatórios de spam entre todas as verificações ativadas que acionarão o filtro de spam.
       frequency_example_text: "Ex: se o email tiver 1 hit e o ip tiver 2 hits, haverá 3 hits no total. Se o limite for definido como 3 ou menos, impedirá o registro."
 
