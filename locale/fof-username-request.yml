@@ -30,7 +30,7 @@ fof-username-request:
       confirmation_message: Sua solicitação foi recebida e será revisada em breve.
       dismiss_button: Entendido
       deleted: Pedido para alterar nome excluído.
-    account_label: Alterar Nome
+    account_label: Mudar Nome
     profile_link: Histórico do Nome
     dropdown:
       title: Solicitações de mudança de nome

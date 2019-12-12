@@ -6,6 +6,7 @@ fof-drafts:
     composer:
       title: Salvar rascunho
       alert: Rascunho salvo.
+      exit_alert: Descartar alterações no rascunho?
     dropdown:
       title: Rascunhos
       button: Deletar Rascunho
