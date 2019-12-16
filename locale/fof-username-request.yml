@@ -9,7 +9,7 @@ fof-username-request:
       help_text: Certifique-se de que o nome de usuário siga as regras.
       decision_title: Decisão
       approval_label: Aprovar
-      denial_label: Negar
+      rejected_label: Negar
       submit_button: Enviar
       reason_title: Razão
       success: Enviado.
