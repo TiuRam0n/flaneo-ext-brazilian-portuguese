@@ -18,7 +18,7 @@ fof-username-request:
       title: Mudar Nome
       approved: 'Sua solicitação de mudança de nome foi aprovada!'
       new_username: 'Seu nome de usuário agora é "{username}"'
-      denied: Seu pedido para alteração de nome foi negado.
+      rejected: Seu pedido para alteração de nome foi negado.
       reason: 'Razão: <i>"{reason}"</i>'
       resubmit: Você pode reenviar uma nova solicitação de nome de usuário das configurações da sua conta.
     request:
