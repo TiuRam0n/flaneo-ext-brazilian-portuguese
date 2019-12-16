@@ -30,7 +30,7 @@ flarum-mentions:
     # These translations are used in the Settings page.
     settings:
       notify_post_mentioned_label: Alguém responde a um de meus posts
-      notify_user_mentioned_label: Alguém me menciona num post
+      notify_user_mentioned_label: Alguém me menciona em um post
 
     # These translations are used in the user profile page and profile popup.
     user:
