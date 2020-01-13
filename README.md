@@ -30,6 +30,7 @@ Pacotes de Extensões Traduzidas:
  - [reflar/reactions](https://github.com/ReFlar/reactions)
  - [wiwatsrt/flarum-ext-best-answer](https://github.com/wiwatsrt/flarum-ext-best-answer)
  - [fof/masquerade](https://github.com/FriendsOfFlarum/masquerade)
+ - [Ver mais](https://github.com/tiuram0n/brazilian-portuguese/tree/master/locale)
 
 ## Como instalar:
 
