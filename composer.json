@@ -7,14 +7,16 @@
 			"brazilian",
 			"portuguese",
 			"language",
-			"locale"
+			"locale",
+	    		"português",
+	    		"extensao"	
 	],
     "license": "MIT",
     "authors": [
         {
             "name": "Ramon Guilherme",
             "email": "ramonguilherme@outlook.com",
-            "homepage": "https://coode.in"
+            "homepage": "https://ramonguilherme.com.br"
         }
            
     ],
@@ -23,7 +25,7 @@
 	    "source": "https://github.com/tiu-ram0n/brazilian-portuguese"
     },	
     "require": {
-        "flarum/core": "^0.1.0-beta.10"
+        "flarum/core": "^0.1.0-beta.11"
     },
     "extra": {
         "flarum-extension": {
