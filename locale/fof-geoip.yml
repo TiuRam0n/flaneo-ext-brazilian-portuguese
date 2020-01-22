@@ -4,7 +4,8 @@ fof-geoip:
       title: FriendsOfFlarum GeoIP
 
       service_label: Serviço
-
+      
+      service__description: Descrição do Serviço
       service_freegeoip_label: FreeGeoIP
       service_freegeoip_description: Use <b>https://freegeoip.app/</b> para pegar até 15.000 códigos de país IP por hora, gratuitamente.
 
