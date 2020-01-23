@@ -21,8 +21,8 @@
            
     ],
     "support": {
-	    "issues": "https://github.com/tiu-ram0n/brazilian-portuguese/issues",
-	    "source": "https://github.com/tiu-ram0n/brazilian-portuguese"
+	    "issues": "https://github.com/tiuram0n/brazilian-portuguese/issues",
+	    "source": "https://github.com/tiuram0n/brazilian-portuguese"
     },	
     "require": {
         "flarum/core": "^0.1.0-beta.11"
@@ -32,7 +32,7 @@
             "title": "Brazilian Portuguese",
             "icon": {
                 "image": "icon.svg",
-                "backgroundColor": "#009c3b",
+                "backgroundColor": "#55a667",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }
