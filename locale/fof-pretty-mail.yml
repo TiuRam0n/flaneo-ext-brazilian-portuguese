@@ -1,9 +1,9 @@
 fof-pretty-mail:
   admin:
     nav:
-      desc: Personalize seus modelos de email em HTML.
+      desc: Personalize seus modelos de e-mail em HTML.
     settings:
-      label: Modelos de email
+      label: Modelos de e-mail
       reset: Reverter para o modelo padrão
       confirm: Tem certeza de que deseja reverter para o modelo de e-mail de ações para
       default: Modelo padrão
@@ -14,17 +14,17 @@ fof-pretty-mail:
       notificationHelp:
         'Recomenda-se usar "$forumStyle" para esses e-mails, pois eles podem
         conter BBCODE. Esses e-mails também têm "$user" disponível, que contém
-        todo o modelo do usuário que está sendo enviado por email.'
+        todo o modelo do usuário que está sendo enviado por e-mail.'
       help:
-        '"$body"conterá o conteúdo real do email, "$forumStyle" contém o
+        '"$body"conterá o conteúdo real do e-mail, "$forumStyle" contém o
         <strong>CSS inteiro do fórum</strong>, "$baseUrl" contém o URL do seu
         fórum, "$settings"permite que você interaja com
-        SettingsRepositoryInterface,  "$link" contém o link no email. Veja cada
+        SettingsRepositoryInterface,  "$link" contém o link no e-mail. Veja cada
         modelo para saber como usar cada variável.'
     css_settings:
       label: Configurações CSS
       help:
-        'Você pode optar por incluir o CSS do fórum no código HTML do email. Se
+        'Você pode optar por incluir o CSS do fórum no código HTML do e-mail. Se
         você habilitar isso, poderá ter problemas com determinados provedores de
-        email.'
+        e-mail.'
       switch_label: Incluir CSS completo do fórum
