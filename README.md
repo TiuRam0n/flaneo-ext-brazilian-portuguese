@@ -9,6 +9,9 @@ Para saber mais, acesse o [Pacote de Idiomas Português Brasileiro](https://disc
 [Reportar Erro](https://github.com/tiuram0n/brazilian-portuguese/issues): Encontrou algum problema? Informe-nos!
 
 Pacotes de Extensões Traduzidas:
+|Extens|  |
+|--|--|
+|  |  |
 
  - [flagrow/ads](https://github.com/flagrow/ads)
  - [flagrow/bazaar](https://github.com/flagrow/bazaar)
@@ -57,5 +60,5 @@ php flarum cache:clear
 - [Packagist](https://packagist.org/packages/tiu-ram0n/brazilian-portuguese "Packagist")
 - [Flagrow](https://flagrow.io/extensions/tiu-ram0n/brazilian-portuguese "Flarow")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzMjM1MDQ2LDIzNzM3MTg0Ml19
+eyJoaXN0b3J5IjpbMTM5ODUzMTk3LDIzNzM3MTg0Ml19
 -->
