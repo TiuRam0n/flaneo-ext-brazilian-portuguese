@@ -58,5 +58,5 @@ php flarum cache:clear
 - [Packagist](https://packagist.org/packages/tiu-ram0n/brazilian-portuguese "Packagist")
 - [Flagrow](https://flagrow.io/extensions/tiu-ram0n/brazilian-portuguese "Flarow")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjA2NzI2NDgsMjM3MzcxODQyXX0=
+eyJoaXN0b3J5IjpbLTIxNDczNjQwNzYsMjM3MzcxODQyXX0=
 -->
