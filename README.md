@@ -41,7 +41,7 @@ Utilize o comando:
 composer require tiu-ram0n/brazilian-portuguese
 ```
 
-Também disponível na loja de extensões do flarum: [Bazaar](https://flagrow.io/extensions/tiu-ram0n/brazilian-portuguese).
+Também disponível na loja de extensões do flarum: [Extiverse](https://extiverse.com/extension/tiu-ram0n/brazilian-portuguese).
 
 ## Como atualizar:
 
