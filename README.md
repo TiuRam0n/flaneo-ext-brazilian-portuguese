@@ -56,4 +56,4 @@ php flarum cache:clear
 
 - [GitHub](https://github.com/tiuram0n/brazilian-portuguese "GitHub")
 - [Packagist](https://packagist.org/packages/tiu-ram0n/brazilian-portuguese "Packagist")
-- [Flagrow](https://flagrow.io/extensions/tiu-ram0n/brazilian-portuguese "Flarow")
+- [Extiverse](https://extiverse.com/extension/tiu-ram0n/brazilian-portuguese)
