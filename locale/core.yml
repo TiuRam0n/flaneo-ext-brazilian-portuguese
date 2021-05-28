@@ -13,7 +13,7 @@ core:
       custom_header_text: "=> core.ref.custom_header_text"
       custom_styles_heading: Estilos personalizados
       custom_styles_text: Personalize a aparência do seu fórum adicionando seu próprio
-        código LESS / CSS a ser aplicado sobre os estilos padrão do Flarum.
+        código Less / CSS a ser aplicado sobre os estilos padrão do Flarum.
       dark_mode_label: Modo escuro
       edit_css_button: Editar CSS personalizado
       edit_footer_button: "=> core.ref.custom_footer_title"
@@ -34,6 +34,8 @@ core:
       home_page_text: Escolha a página que os usuários verão pela primeira vez quando
         visitarem seu fórum.
       show_language_selector_label: Mostrar seletor de idioma
+      slug_driver_heading: 'Slug Driver: {model}'
+      slug_driver_text: 'Selecione o driver que será utilizado para o slugging deste modelo.'
       welcome_banner_heading: Banner de boas-vindas
       welcome_banner_text: Configure o texto exibido no banner na página Todas as
         discussões. Use isso para receber convidados no seu fórum.
@@ -45,7 +47,7 @@ core:
       tools_button: Ferramentas
     edit_css:
       customize_text: Personalize a aparência do seu fórum adicionando seu próprio
-        código LESS / CSS a ser aplicado sobre os <a>estilos padrão</a>do Flarum.
+        código Less / CSS a ser aplicado sobre os <a>estilos padrão</a>do Flarum.
       submit_button: "=> core.ref.save_changes"
       title: Editar CSS personalizado
     edit_footer:
@@ -109,6 +111,10 @@ core:
       dashboard_button: Painel de controle
       email_button: "=> core.ref.email"
       permissions_button: Permissões
+      permissions_title: 'Configure quem pode ver o conteúdo.'
+      search_placeholder: 'Buscar extensão'
+      userlist_button: '=> core.admin.users.title'
+      userlist_title: '=> core.admin.users.description'
     permissions:
       allow_post_editing_label: Permitir edição pós
       allow_renaming_label: Permitir renomeação
@@ -126,8 +132,11 @@ core:
       read_heading: Ler
       rename_discussions_label: Renomear discussões
       reply_to_discussions_label: Responder às discussões
+      search_users_label: 'Buscar usuários'
       sign_up_label: Inscrever-se
       start_discussions_label: Iniciar discussões
+      title: Permissões
+      view_forum_label: 'Ver forum (discussões e usuários)'
       view_last_seen_at_label: Ver a última vez que o usuário visualizou
       view_post_ips_label: Exibir endereços IP da postagem
       post_without_throttle_label: Responda várias vezes sem esperar
@@ -146,6 +155,19 @@ core:
     upload_image:
       remove_button: "=> core.ref.remove"
       upload_button: Escolha uma imagem ...
+    users:
+      grid:
+        columns:
+          email:
+            visibility_hide: 'Ocultar email'
+            visibility_show: 'Mostrar email'
+          group_badges:
+            title: Grupos
+        invalid_column_content: Inválido
+      pagination:
+        back_button: 'Anterior'
+        next_button: 'Próxima'
+      title: '=> core.ref.users'
   forum:
     change_email:
       confirm_password_placeholder: "=> core.ref.confirm_password"
