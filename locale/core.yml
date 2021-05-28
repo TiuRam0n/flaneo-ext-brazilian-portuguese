@@ -143,7 +143,7 @@ core:
       view_hidden_groups_label: Ver emblemas de grupo ocultos
     permissions_controls:
       allow_indefinitely_button: Indefinidamente
-      allow_some_minutes_button: Por {count} minuto | Por {count} minutos
+      allow_some_minutes_button: '{count, plural, one {Por # minuto} other {Por # minutos}}'
       allow_ten_minutes_button: Por 10 minutos
       allow_until_reply_button: Até a próxima resposta
       everyone_button: Todos
@@ -156,18 +156,34 @@ core:
       remove_button: "=> core.ref.remove"
       upload_button: Escolha uma imagem ...
     users:
+      description: 'Uma lista detalhada de todos os usuários do fórum.'
       grid:
         columns:
+          edit_user:
+            button: '=> core.ref.edit'
+            title: '=> core.ref.edit_user'
+            tooltip: 'Editar {username}'
           email:
+            title: '=> core.ref.email'
             visibility_hide: 'Ocultar email'
             visibility_show: 'Mostrar email'
           group_badges:
+            no_badges: Nenhum
             title: Grupos
+          join_time:
+            title: 'Se uniu'
+          user_id:
+            title: ID
+          username:
+            profile_link_tooltip: 'Visitar o perfil de {username}'
+            title: '=> core.ref.username'
         invalid_column_content: Inválido
       pagination:
         back_button: 'Anterior'
         next_button: 'Próxima'
+        page_counter: 'Página {current} de {total}'
       title: '=> core.ref.users'
+      total_users: 'Total de usuários: {count}'
   forum:
     change_email:
       confirm_password_placeholder: "=> core.ref.confirm_password"
@@ -215,6 +231,7 @@ core:
       rename_button: "=> core.ref.rename"
       reply_button: "=> core.ref.reply"
       restore_button: "=> core.ref.restore"
+      toggle_dropdown_accessible_label: 'Alternar o menu de ações da discussão'
     discussion_list:
       empty_text: Parece que não há discussões aqui.
       load_more_button: "=> core.ref.load_more"
@@ -238,6 +255,7 @@ core:
       log_out_button: "=> core.ref.log_out"
       profile_button: Perfil
       search_placeholder: Pesquisar
+      session_dropdown_accessible_label: 'Alternar o menu suspenso de opções da sessão'
       settings_button: "=> core.ref.settings"
       sign_up_link: "=> core.ref.sign_up"
     index:
@@ -248,6 +266,7 @@ core:
       mark_all_as_read_tooltip: "=> core.ref.mark_all_as_read"
       refresh_tooltip: Atualizar
       start_discussion_button: "=> core.ref.start_a_discussion"
+      toggle_sidenav_dropdown_accessible_label: 'Alternar o menu de navegação'
       meta_title_text: "=> core.ref.all_discussions"
     index_sort:
       latest_button: Mais recentes
@@ -280,6 +299,7 @@ core:
       delete_forever_button: "=> core.ref.delete_forever"
       edit_button: "=> core.ref.edit"
       restore_button: "=> core.ref.restore"
+      toggle_dropdown_accessible_label: 'Alternar o menu do controle de postagens'
       delete_confirmation: Tem certeza de que deseja excluir esta postagem para sempre?
         Essa ação não pode ser desfeita.
       hide_confirmation: Tem certeza de que deseja excluir esta postagem?
