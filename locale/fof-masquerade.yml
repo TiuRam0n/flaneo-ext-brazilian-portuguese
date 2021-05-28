@@ -21,9 +21,6 @@ fof-masquerade:
         permissions:
             have-profile: Have masquerade profile
             view-profile: View masquerade profile
-        menu:
-            description: >
-                Configurar campos do perfil do usuário.
         fields:
             add: Adicionar campo {field}
             edit: Editar campo {field}

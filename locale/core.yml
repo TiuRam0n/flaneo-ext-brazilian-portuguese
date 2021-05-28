@@ -1,15 +1,6 @@
 ---
 core:
   admin:
-    add_extension:
-      developer_text: Se você é um desenvolvedor,você pode <a>ler os documentos</a>
-        e tentar criar suas próprias extensões.
-      install_text: Enquanto isso, você pode procurar extensões no <a>site da Comunidade
-        Flarum</a> e instalá-las manualmente usando o Composer.
-      temporary_text: Um dia em um futuro não muito distante, essa caixa de diálogo
-        permitirá que você adicione uma extensão ao seu fórum com facilidade. Estamos
-        construindo um ecossistema enquanto falamos!
-      title: Adicionar extensão
     appearance:
       colored_header_label: Cabeçalho colorido
       colors_heading: Cores
@@ -32,7 +23,6 @@ core:
       favicon_text: Carregue uma imagem para ser exibida como ícone de atalho do fórum.
       logo_heading: Logotipo
       logo_text: Carregue uma imagem para ser exibida no lugar do título do fórum.
-      submit_button: "=> core.ref.save_changes"
     basics:
       all_discussions_label: "=> core.ref.all_discussions"
       default_language_heading: Idioma padrão
@@ -43,9 +33,7 @@ core:
       home_page_heading: Página Inicial
       home_page_text: Escolha a página que os usuários verão pela primeira vez quando
         visitarem seu fórum.
-      saved_message: Suas alterações foram salvas.
       show_language_selector_label: Mostrar seletor de idioma
-      submit_button: "=> core.ref.save_changes"
       welcome_banner_heading: Banner de boas-vindas
       welcome_banner_text: Configure o texto exibido no banner na página Todas as
         discussões. Use isso para receber convidados no seu fórum.
@@ -86,7 +74,6 @@ core:
       driver_heading: Escolha um driver
       driver_label: Criptografia
       from_label: Remetente
-      heading: "=> core.ref.email"
       mail_encryption_label: Criptografia
       mail_host_label: Host
       mail_mailgun_domain_label: Dominio
@@ -97,9 +84,6 @@ core:
       mail_username_label: "=> core.ref.username"
       mailgun_heading: Configurações de Mailgun
       smtp_heading: Configurações SMTP
-      submit_button: "=> core.ref.save_changes"
-      text: Configure o driver, as configurações e os endereços que seu fórum usará
-        para enviar e-mail's.
       not_sending_message: Flarum atualmente não envia e-mails. Isso pode ocorrer
         devido ao driver selecionado ou a erros de configuração.
       send_test_mail_button: Enviar
@@ -107,12 +91,10 @@ core:
       send_test_mail_success: Teste de e-mail enviado com sucesso!
       send_test_mail_text: Isso enviará um e-mail usando a configuração acima para
         o seu e-mail, {email}.
-      mail_mandrill_secret_label: Chave secreta
       mail_ses_secret_label: Secret
       mail_ses_region_label: Região
       ses_heading: Configurações do SES
       mail_ses_key_label: Chave
-      mandrill_heading: Configurações do Mandrill
     extensions:
       add_button: Adicionar extensão
       settings_button: "=> core.ref.settings"
@@ -123,17 +105,10 @@ core:
       title: Por favor, espere...
     nav:
       appearance_button: Aparência
-      appearance_text: Personalize as cores, logotipos e outras variáveis do seu fórum.
       basics_button: Basico
-      basics_text: Defina o título do fórum, idioma e outras configurações básicas.
       dashboard_button: Painel de controle
-      dashboard_text: Seu forum num relance.
       email_button: "=> core.ref.email"
-      email_text: Defina as configurações de e-mail do seu fórum.
-      extensions_button: Extensões
-      extensions_text: Adicione funcionalidade extra ao seu fórum e faça você mesmo.
       permissions_button: Permissões
-      permissions_text: Configure quem pode ver e fazer o que.
     permissions:
       allow_post_editing_label: Permitir edição pós
       allow_renaming_label: Permitir renomeação
@@ -153,10 +128,8 @@ core:
       reply_to_discussions_label: Responder às discussões
       sign_up_label: Inscrever-se
       start_discussions_label: Iniciar discussões
-      view_discussions_label: Ver discussões
       view_last_seen_at_label: Ver a última vez que o usuário visualizou
       view_post_ips_label: Exibir endereços IP da postagem
-      view_user_list_label: Ver lista de usuários
       post_without_throttle_label: Responda várias vezes sem esperar
       view_hidden_groups_label: Ver emblemas de grupo ocultos
     permissions_controls:
@@ -226,18 +199,6 @@ core:
       mark_as_read_tooltip: Marcar como Lido
       replied_text: "{username} respondeu {ago}"
       started_text: "{username} iniciado {ago}"
-    edit_user:
-      activate_button: Ativar Usuário
-      email_heading: "=> core.ref.email"
-      email_label: "=> core.ref.email"
-      groups_heading: Grupos
-      password_heading: "=> core.ref.password"
-      password_label: "=> core.ref.password"
-      set_password_label: Definir nova senha
-      submit_button: "=> core.ref.save_changes"
-      title: Editar usuário
-      username_heading: "=> core.ref.username"
-      username_label: "=> core.ref.username"
     forgot_password:
       dismiss_button: "=> core.ref.okay"
       email_placeholder: "=> core.ref.email"

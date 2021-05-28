@@ -29,10 +29,8 @@ flarum-tags:
         são como categorias tradicionais de fórum: elas podem ser organizadas numa
         hierarquia de dois níveis. Tags secundárias não possuem hierarquia ou ordem,
         e são úteis para micro-categorização.'
-      create_tag_button: "=> flarum-tags.ref.create_tag"
       primary_heading: Tags Primárias
       secondary_heading: Tags Secundárias
-      settings_button: Configurações
     tag_settings:
       range_separator_text: " a "
       required_primary_heading: Número Exigido de Tags Primárias
@@ -72,6 +70,5 @@ flarum-tags:
   lib:
     deleted_tag_text: Deletada
   ref:
-    create_tag: Criar Tag
     name: Nome
     tags: Tags
