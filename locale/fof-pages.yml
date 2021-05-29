@@ -25,14 +25,8 @@ fof-pages:
       url_label: => fof-pages.ref.url
       url_placeholder: => fof-pages.ref.url
 
-    # These strings are used in the pages page.
-    nav:
-      pages_button: => fof-pages.ref.pages
-      pages_text: Criar Página de Estatísticas Customizada
-
     # Strings in this namespace are referenced by two or more unique keys.
     pages:
-      about_text: Criar e Gerencias Páginas de Estatísticas
       create_button: => fof-pages.ref.create_page
 
     # These strings are used in the pages list.

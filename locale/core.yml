@@ -1,15 +1,6 @@
 ---
 core:
   admin:
-    add_extension:
-      developer_text: Se você é um desenvolvedor,você pode <a>ler os documentos</a>
-        e tentar criar suas próprias extensões.
-      install_text: Enquanto isso, você pode procurar extensões no <a>site da Comunidade
-        Flarum</a> e instalá-las manualmente usando o Composer.
-      temporary_text: Um dia em um futuro não muito distante, essa caixa de diálogo
-        permitirá que você adicione uma extensão ao seu fórum com facilidade. Estamos
-        construindo um ecossistema enquanto falamos!
-      title: Adicionar extensão
     appearance:
       colored_header_label: Cabeçalho colorido
       colors_heading: Cores
@@ -22,7 +13,7 @@ core:
       custom_header_text: "=> core.ref.custom_header_text"
       custom_styles_heading: Estilos personalizados
       custom_styles_text: Personalize a aparência do seu fórum adicionando seu próprio
-        código LESS / CSS a ser aplicado sobre os estilos padrão do Flarum.
+        código Less / CSS a ser aplicado sobre os estilos padrão do Flarum.
       dark_mode_label: Modo escuro
       edit_css_button: Editar CSS personalizado
       edit_footer_button: "=> core.ref.custom_footer_title"
@@ -32,7 +23,6 @@ core:
       favicon_text: Carregue uma imagem para ser exibida como ícone de atalho do fórum.
       logo_heading: Logotipo
       logo_text: Carregue uma imagem para ser exibida no lugar do título do fórum.
-      submit_button: "=> core.ref.save_changes"
     basics:
       all_discussions_label: "=> core.ref.all_discussions"
       default_language_heading: Idioma padrão
@@ -43,9 +33,9 @@ core:
       home_page_heading: Página Inicial
       home_page_text: Escolha a página que os usuários verão pela primeira vez quando
         visitarem seu fórum.
-      saved_message: Suas alterações foram salvas.
       show_language_selector_label: Mostrar seletor de idioma
-      submit_button: "=> core.ref.save_changes"
+      slug_driver_heading: 'Slug Driver: {model}'
+      slug_driver_text: 'Selecione o driver que será utilizado para o slugging deste modelo.'
       welcome_banner_heading: Banner de boas-vindas
       welcome_banner_text: Configure o texto exibido no banner na página Todas as
         discussões. Use isso para receber convidados no seu fórum.
@@ -57,7 +47,7 @@ core:
       tools_button: Ferramentas
     edit_css:
       customize_text: Personalize a aparência do seu fórum adicionando seu próprio
-        código LESS / CSS a ser aplicado sobre os <a>estilos padrão</a>do Flarum.
+        código Less / CSS a ser aplicado sobre os <a>estilos padrão</a>do Flarum.
       submit_button: "=> core.ref.save_changes"
       title: Editar CSS personalizado
     edit_footer:
@@ -86,7 +76,6 @@ core:
       driver_heading: Escolha um driver
       driver_label: Criptografia
       from_label: Remetente
-      heading: "=> core.ref.email"
       mail_encryption_label: Criptografia
       mail_host_label: Host
       mail_mailgun_domain_label: Dominio
@@ -97,9 +86,6 @@ core:
       mail_username_label: "=> core.ref.username"
       mailgun_heading: Configurações de Mailgun
       smtp_heading: Configurações SMTP
-      submit_button: "=> core.ref.save_changes"
-      text: Configure o driver, as configurações e os endereços que seu fórum usará
-        para enviar e-mail's.
       not_sending_message: Flarum atualmente não envia e-mails. Isso pode ocorrer
         devido ao driver selecionado ou a erros de configuração.
       send_test_mail_button: Enviar
@@ -107,12 +93,10 @@ core:
       send_test_mail_success: Teste de e-mail enviado com sucesso!
       send_test_mail_text: Isso enviará um e-mail usando a configuração acima para
         o seu e-mail, {email}.
-      mail_mandrill_secret_label: Chave secreta
       mail_ses_secret_label: Secret
       mail_ses_region_label: Região
       ses_heading: Configurações do SES
       mail_ses_key_label: Chave
-      mandrill_heading: Configurações do Mandrill
     extensions:
       add_button: Adicionar extensão
       settings_button: "=> core.ref.settings"
@@ -123,17 +107,14 @@ core:
       title: Por favor, espere...
     nav:
       appearance_button: Aparência
-      appearance_text: Personalize as cores, logotipos e outras variáveis do seu fórum.
       basics_button: Basico
-      basics_text: Defina o título do fórum, idioma e outras configurações básicas.
       dashboard_button: Painel de controle
-      dashboard_text: Seu forum num relance.
       email_button: "=> core.ref.email"
-      email_text: Defina as configurações de e-mail do seu fórum.
-      extensions_button: Extensões
-      extensions_text: Adicione funcionalidade extra ao seu fórum e faça você mesmo.
       permissions_button: Permissões
-      permissions_text: Configure quem pode ver e fazer o que.
+      permissions_title: 'Configure quem pode ver o conteúdo.'
+      search_placeholder: 'Buscar extensão'
+      userlist_button: '=> core.admin.users.title'
+      userlist_title: '=> core.admin.users.description'
     permissions:
       allow_post_editing_label: Permitir edição pós
       allow_renaming_label: Permitir renomeação
@@ -151,17 +132,18 @@ core:
       read_heading: Ler
       rename_discussions_label: Renomear discussões
       reply_to_discussions_label: Responder às discussões
+      search_users_label: 'Buscar usuários'
       sign_up_label: Inscrever-se
       start_discussions_label: Iniciar discussões
-      view_discussions_label: Ver discussões
+      title: Permissões
+      view_forum_label: 'Ver forum (discussões e usuários)'
       view_last_seen_at_label: Ver a última vez que o usuário visualizou
       view_post_ips_label: Exibir endereços IP da postagem
-      view_user_list_label: Ver lista de usuários
       post_without_throttle_label: Responda várias vezes sem esperar
       view_hidden_groups_label: Ver emblemas de grupo ocultos
     permissions_controls:
       allow_indefinitely_button: Indefinidamente
-      allow_some_minutes_button: Por {count} minuto | Por {count} minutos
+      allow_some_minutes_button: '{count, plural, one {Por # minuto} other {Por # minutos}}'
       allow_ten_minutes_button: Por 10 minutos
       allow_until_reply_button: Até a próxima resposta
       everyone_button: Todos
@@ -173,6 +155,35 @@ core:
     upload_image:
       remove_button: "=> core.ref.remove"
       upload_button: Escolha uma imagem ...
+    users:
+      description: 'Uma lista detalhada de todos os usuários do fórum.'
+      grid:
+        columns:
+          edit_user:
+            button: '=> core.ref.edit'
+            title: '=> core.ref.edit_user'
+            tooltip: 'Editar {username}'
+          email:
+            title: '=> core.ref.email'
+            visibility_hide: 'Ocultar email'
+            visibility_show: 'Mostrar email'
+          group_badges:
+            no_badges: Nenhum
+            title: Grupos
+          join_time:
+            title: 'Se uniu'
+          user_id:
+            title: ID
+          username:
+            profile_link_tooltip: 'Visitar o perfil de {username}'
+            title: '=> core.ref.username'
+        invalid_column_content: Inválido
+      pagination:
+        back_button: 'Anterior'
+        next_button: 'Próxima'
+        page_counter: 'Página {current} de {total}'
+      title: '=> core.ref.users'
+      total_users: 'Total de usuários: {count}'
   forum:
     change_email:
       confirm_password_placeholder: "=> core.ref.confirm_password"
@@ -220,24 +231,13 @@ core:
       rename_button: "=> core.ref.rename"
       reply_button: "=> core.ref.reply"
       restore_button: "=> core.ref.restore"
+      toggle_dropdown_accessible_label: 'Abrir o menu de ações da discussão'
     discussion_list:
       empty_text: Parece que não há discussões aqui.
       load_more_button: "=> core.ref.load_more"
       mark_as_read_tooltip: Marcar como Lido
       replied_text: "{username} respondeu {ago}"
       started_text: "{username} iniciado {ago}"
-    edit_user:
-      activate_button: Ativar Usuário
-      email_heading: "=> core.ref.email"
-      email_label: "=> core.ref.email"
-      groups_heading: Grupos
-      password_heading: "=> core.ref.password"
-      password_label: "=> core.ref.password"
-      set_password_label: Definir nova senha
-      submit_button: "=> core.ref.save_changes"
-      title: Editar usuário
-      username_heading: "=> core.ref.username"
-      username_label: "=> core.ref.username"
     forgot_password:
       dismiss_button: "=> core.ref.okay"
       email_placeholder: "=> core.ref.email"
@@ -255,6 +255,7 @@ core:
       log_out_button: "=> core.ref.log_out"
       profile_button: Perfil
       search_placeholder: Pesquisar
+      session_dropdown_accessible_label: 'Abrir o menu de opções das sessões'
       settings_button: "=> core.ref.settings"
       sign_up_link: "=> core.ref.sign_up"
     index:
@@ -265,6 +266,7 @@ core:
       mark_all_as_read_tooltip: "=> core.ref.mark_all_as_read"
       refresh_tooltip: Atualizar
       start_discussion_button: "=> core.ref.start_a_discussion"
+      toggle_sidenav_dropdown_accessible_label: 'Abrir o menu de navegação'
       meta_title_text: "=> core.ref.all_discussions"
     index_sort:
       latest_button: Mais recentes
@@ -297,6 +299,7 @@ core:
       delete_forever_button: "=> core.ref.delete_forever"
       edit_button: "=> core.ref.edit"
       restore_button: "=> core.ref.restore"
+      toggle_dropdown_accessible_label: 'Abrir o menu do controle de postagens'
       delete_confirmation: Tem certeza de que deseja excluir esta postagem para sempre?
         Essa ação não pode ser desfeita.
       hide_confirmation: Tem certeza de que deseja excluir esta postagem?
@@ -304,7 +307,7 @@ core:
       now_link: agora
       original_post_link: Post Original
       unread_text: "{count} não lida"
-      viewing_text: "{index} de {count} postagem |{index} de {count} postagens"
+      viewing_text: '{count, plural, one {{index} de {formattedCount} postagem} other {{index} de {formattedCount} postagens}}'
     post_stream:
       discussion_renamed_old_tooltip: 'O título antigo era: "{old}"'
       discussion_renamed_text: "{username} alterou o título para {new}."
@@ -359,6 +362,7 @@ core:
       delete_error_message: A exclusão do usuário <i>{username} ({email})</i> falhou
       delete_success_message: O usuário <i>{username} ({email})</i> foi excluído
       edit_button: "=> core.ref.edit"
+      toggle_dropdown_accessible_label: 'Abrir o menu de controle dos usuários'
     user_email_confirmation:
       alert_message: "=> core.ref.confirmation_email_sent"
       resend_button: Reenviar e-mail de confirmação
@@ -366,6 +370,20 @@ core:
   lib:
     badge:
       hidden_tooltip: Escondido
+    dropdown:
+      toggle_dropdown_accessible_label: 'Abrir o menu'
+    edit_user:
+      activate_button: 'Ativar o usuário'
+      email_heading: '=> core.ref.email'
+      email_label: '=> core.ref.email'
+      groups_heading: Grupos
+      password_heading: '=> core.ref.password'
+      password_label: '=> core.ref.password'
+      set_password_label: 'Definir uma nova senha'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.edit_user'
+      username_heading: '=> core.ref.username'
+      username_label: '=> core.ref.username'
     error:
       generic_message: Opa! Algo deu errado. Por favor, recarregue a página e tente
         novamente.
@@ -377,6 +395,8 @@ core:
         as seguintes extensões dependentes sejam desativadas: {extensions}'
       missing_dependencies_message: 'Não é possível ativar {extension} até que as
         seguintes dependências sejam ativadas: {extensions}'
+    loading_indicator:
+      accessible_label: '=> core.ref.loading'
     number_suffix:
       kilo_text: K
       mega_text: M
@@ -474,11 +494,13 @@ core:
     delete_forever: Deletar permanentemente
     discussions: Discussões
     edit: Editar
+    edit_user: 'Editar usuário'
     email: E-mail
     icon: Ícone
     icon_text: Digite o nome de qualquer classe de ícone <a>FontAwesome</a> , <em>incluindo</em>
       o prefixo <code>fas fa-</code> .
     load_more: Carregue mais
+    loading: Carregando...
     log_in: Entrar
     log_out: Sair
     mark_all_as_read: Marcar tudo como lido
@@ -496,7 +518,7 @@ core:
     save_changes: Salvar Alterações
     settings: Configurações
     sign_up: Inscrever-se
-    some_others: "{count} outro |{count} outros"
+    some_others: '{count, plural, one {# outro} other {# outros}}'
     start_a_discussion: Iniciar Discussão
     username: Nome de usuário
     users: Usuários
